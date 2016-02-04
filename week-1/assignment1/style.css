@@ -42,5 +42,8 @@ table.pic {
 	border-collapse: collapse;
 	float: right;
     background-color: #fcf1f5;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
 
