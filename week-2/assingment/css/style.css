@@ -52,6 +52,7 @@ body {
      font-family: Helvetica, Arial, sans-serif;
      /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
       background-size: cover;
+      background-color: #f0efef;
 }
 
 
@@ -60,7 +61,14 @@ body {
 /*******************************************/
 
 /* Center the container */
-/*.container {*/
+
+.container { 
+	margin:0 auto;
+	width:70%;
+	clear:both;
+	
+}
+
 .inner-container{
   width: 100%;
   margin: auto;
@@ -69,23 +77,29 @@ body {
 }
 
 .pageIntro {
-clear:both;
-	width: 100%;     
+     clear:both;
+	 width: 100%;     
 	 float: left; 
-	 background: url(../images/header_bg.jpg);  
+	 background: url(../images/header_bg.jpg);
+	 height:auto;  
 }
 .pageIntro h1{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	font-size:24px;
 	color:white;
+	float:left;
+	padding: 50px;
+	
 }
 .pageIntro h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 	font-size:24px;
-	padding-left: 300px;
 	color:white;
+	margin: 70px;
+	padding:100px;
+	text-align: center;
 }
 
 .pageIntro a {
@@ -95,34 +109,50 @@ clear:both;
 	}
 	
 .button {
+	margin:0 auto;
+	padding: 2px 4px;
 	text-align: center;
-	margin: 0 auto;
-	width: 250px;
+	width: 150px;
 }
 
 .button a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 	padding:20px 60px;
+	border: 14px 5px;
 }
 
 .pageFooter {
 	clear:both;
 	width: 100%;     
-	 float: left;   
+	padding: 0 auto;   
     background-color: #121212;
-    height: 350px;
+    height: 150px;
 }
-.relaxr {
+.pageFooter h2{
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	font-size: 24px;
-	
+	font-style: normal;
 	text-align: center;
 	color:#f9e42e;
+	padding-top: 0px;
 }
 .pageFooter p{
-	font-weight: semi bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 9px;
 	color:white;
-
+	text-align: center;
+	padding-top: 100px;
+}
+.bottomnav ul li a{
+	text-align: center;
+	padding-left: 100px;
+	margin: 30px;
+	display: block;
+	float:left;
+	width: 100px;
 }
 
 
@@ -133,79 +163,75 @@ clear:both;
 .sectionone{
 	width: 100%;
 	float:left;
-	height: 500px;
+	height: 200px;
 	background-color: #f0efef;
-	
 }
-.sectionone h2{
-	font-weight: 'Open Sans',semibold;
+.inner-container h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 20px;
-	
+	font-style: !important;
+	padding-left: 10px;
+	margin: 10px;
 }
-.sectionone p{
-	font-weight: 'Open Sans', light;
+.inner-container p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 13px;
+	font-style: inherit;
+	padding: 10px;
+	margin:10px;
 	}
-.sectionone li{
-	font-weight: 'Open Sans',light;
+.list li{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 13px;
+	font-style: inherit;
+	padding-left: 40px;
 	}
 
 	
 .sectiontwo{
 	width: 100%;
 	float:left;
-	height: 400px;
+	height: 150px;
 	background:url(../images/testimonial_bg.jpg);
 }
 .sectiontwo p{
-	font-weight: 'Open Sans',light italic;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 18px;
+	font-style: oblique;
 	color:white;
+	text-align: center;
 }
 .sectiontwo span{
-	font-weight: 'Open Sans', semibold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 18px;
+	font-style: !important;
 	color:white;
+	
 }
 .sectionthree{
 	clear: both;
 	width: 100%;
 	float:left;
-	height: 120px;
+	height: 90px;
 	background: #f9e42e;
 	}
 
-.sectionthree a{
-	font-weight: :bold 800px;
-	font-size: 12px;
-	border: 5px;
-	text-decoration: none; 
-}
-.sectionthree code{
+.signUp a {
 	color:white;
-	background: #033048;
-	padding: 2px 5px;
-  border: 1px solid black;
-  
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 12px;
+	text-decoration: none;
+	padding-top: 10px;
+	margin:150px;
+	margin-bottom: 20px;
+	text-align: center; 
+	background-color: #033048;
 }
-.list li{
-	font-weight:300px;
-	font-size: 13px;
-
-}
-.links ul{
-	padding: 0px;
-	margin:0px;
-}
-.links li{
-	list-style-type: none;
-	float:left;
-	display:block;
-	width:80px;
-	margin: 1,3,2,0;
-}
-
 
 
