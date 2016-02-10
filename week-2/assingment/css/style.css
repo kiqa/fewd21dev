@@ -50,7 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
       background-size: cover;
 }
 
@@ -60,7 +60,8 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
+/*.container {*/
+.inner-container{
   width: 100%;
   margin: auto;
   height: 500px;
@@ -68,17 +69,143 @@ body {
 }
 
 .pageIntro {
+clear:both;
+	width: 100%;     
+	 float: left; 
+	 background: url(../images/header_bg.jpg);  
+}
+.pageIntro h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size:24px;
+	color:white;
+}
+.pageIntro h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+	font-size:24px;
+	padding-left: 300px;
+	color:white;
+}
 
+.pageIntro a {
+	border:black;
+	background-color: #f9e42e;
+	text-decoration: none;
+	}
+	
+.button {
+	text-align: center;
+	margin: 0 auto;
+	width: 250px;
+}
+
+.button a{
+	padding:20px 60px;
 }
 
 .pageFooter {
+	clear:both;
+	width: 100%;     
+	 float: left;   
+    background-color: #121212;
+    height: 350px;
+}
+.relaxr {
+	font-weight: 800;
+	font-size: 24px;
+	
+	text-align: center;
+	color:#f9e42e;
+}
+.pageFooter p{
+	font-weight: semi bold;
+	font-size: 9px;
+	color:white;
 
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.sectionone{
+	width: 100%;
+	float:left;
+	height: 500px;
+	background-color: #f0efef;
+	
+}
+.sectionone h2{
+	font-weight: 'Open Sans',semibold;
+	font-size: 20px;
+	
+}
+.sectionone p{
+	font-weight: 'Open Sans', light;
+	font-size: 13px;
+	}
+.sectionone li{
+	font-weight: 'Open Sans',light;
+	font-size: 13px;
+	}
 
+	
+.sectiontwo{
+	width: 100%;
+	float:left;
+	height: 400px;
+	background:url(../images/testimonial_bg.jpg);
+}
+.sectiontwo p{
+	font-weight: 'Open Sans',light italic;
+	font-size: 18px;
+	color:white;
+}
+.sectiontwo span{
+	font-weight: 'Open Sans', semibold;
+	font-size: 18px;
+	color:white;
+}
+.sectionthree{
+	clear: both;
+	width: 100%;
+	float:left;
+	height: 120px;
+	background: #f9e42e;
+	}
+
+.sectionthree a{
+	font-weight: :bold 800px;
+	font-size: 12px;
+	border: 5px;
+	text-decoration: none; 
+}
+.sectionthree code{
+	color:white;
+	background: #033048;
+	padding: 2px 5px;
+  border: 1px solid black;
+  
+
+}
+.list li{
+	font-weight:300px;
+	font-size: 13px;
+
+}
+.links ul{
+	padding: 0px;
+	margin:0px;
+}
+.links li{
+	list-style-type: none;
+	float:left;
+	display:block;
+	width:80px;
+	margin: 1,3,2,0;
+}
 
 
 

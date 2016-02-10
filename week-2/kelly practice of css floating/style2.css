@@ -1,0 +1,81 @@
+.placeholder {     
+	 margin: 0px;   
+	 height: 200px;    
+	 padding: 10px;     
+	 border: 10px solid white;    
+	 background: rgba(255,255,255,0.7); 
+	 }
+.sideBarright {
+	
+	 width: 20%;     
+	 float: left;     
+	 background: pink; 
+}
+	 
+ .pageHeader { 
+	     
+	width: 100%;    
+    float: left;     
+	background: red;
+	
+	   }
+	    
+ .main {  
+	   
+	width: 20%;     
+	float: left;     
+	background: yellow;
+		 } 
+		  
+.sideBar { 
+	   
+	padding: 0px;
+	width: 60%;     
+	float: left;     
+	background: green; 
+			 }
+			   
+.pageFooter {    
+	clear:both;
+	width: 100%;     
+	float: right;     
+    background: blue; 
+				  }
+.newblock {
+	 width: 10%;     
+	 float: right;     
+	 padding:10px solid white;
+	 height: 50px;
+}
+.newanother {
+	width: 10%; 
+	float: right;         
+	 background:orange;
+	 padding:10px;
+	 height: 50px;
+	 padding:10px solid white;
+}
+.another{
+	width: 10%; 
+	float: right;        
+	 background:orange;
+	 padding:10px;
+	 height: 50px;
+	 padding:10px solid white;
+}
+.new{
+	height: 50px;
+	width: 10%; 
+	float: right;        
+	 background:orange;
+	 padding:10px;
+	 padding:10px solid white;
+}
+.block {
+	width: 10%;  
+	float: right;        
+	 background:orange;
+	 padding:10px;
+	 height: 50px;
+	 padding:10px
+	  }
