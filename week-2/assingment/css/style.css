@@ -66,14 +66,13 @@ body {
 	margin:0 auto;
 	width:70%;
 	clear:both;
-	
-}
+    box-shadow: 0px 0px 65px black;
+    }
 
 .inner-container{
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 .pageIntro {
@@ -81,7 +80,7 @@ body {
 	 width: 100%;     
 	 float: left; 
 	 background: url(../images/header_bg.jpg);
-	 height:auto;  
+	 height:600px; 
 }
 .pageIntro h1{
 	font-family: 'Open Sans', sans-serif;
@@ -89,7 +88,7 @@ body {
 	font-size:24px;
 	color:white;
 	float:left;
-	padding: 50px;
+	padding: 80px;
 	
 }
 .pageIntro h2{
@@ -97,8 +96,7 @@ body {
     font-weight: 600;
 	font-size:24px;
 	color:white;
-	margin: 70px;
-	padding:100px;
+	padding:150px;
 	text-align: center;
 }
 
@@ -120,6 +118,7 @@ body {
 	font-weight: 800;
 	padding:20px 60px;
 	border: 14px 5px;
+	border-radius: 10px 10px;
 }
 
 .pageFooter {
@@ -127,7 +126,7 @@ body {
 	width: 100%;     
 	padding: 0 auto;   
     background-color: #121212;
-    height: 150px;
+    height: 250px;
 }
 .pageFooter h2{
 	font-family: 'Open Sans', sans-serif;
@@ -144,13 +143,16 @@ body {
 	font-size: 9px;
 	color:white;
 	text-align: center;
-	padding-top: 100px;
+	padding-top:100px;
+}
+.bottomnav {
+	margin:20px 20px;
+	text-align: center;
 }
 .bottomnav ul li a{
 	text-align: center;
-	padding-left: 100px;
-	margin: 30px;
-	display: block;
+	padding-left: 210px;
+	margin: 0 auto;
 	float:left;
 	width: 100px;
 }
@@ -163,7 +165,7 @@ body {
 .sectionone{
 	width: 100%;
 	float:left;
-	height: 200px;
+	height: 400px;
 	background-color: #f0efef;
 }
 .inner-container h2{
@@ -194,8 +196,10 @@ body {
 .sectiontwo{
 	width: 100%;
 	float:left;
-	height: 150px;
+	height: 200px;
 	background:url(../images/testimonial_bg.jpg);
+	text-align: center;
+	margin:0;
 }
 .sectiontwo p{
 	font-family: 'Open Sans', sans-serif;
@@ -205,14 +209,6 @@ body {
 	color:white;
 	text-align: center;
 }
-.sectiontwo span{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 18px;
-	font-style: !important;
-	color:white;
-	
-}
 .sectionthree{
 	clear: both;
 	width: 100%;
@@ -220,18 +216,24 @@ body {
 	height: 90px;
 	background: #f9e42e;
 	}
+.signup {
+	margin:40px 0px 0px 0px;
+	text-align: center;
+}
 
-.signUp a {
+
+.signup a {
 	color:white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	font-size: 12px;
 	text-decoration: none;
-	padding-top: 10px;
-	margin:150px;
-	margin-bottom: 20px;
+	padding:10px 40px;
 	text-align: center; 
 	background-color: #033048;
 }
-
+.textwrap{
+	width:300px;
+	margin: 30px auto 0px auto;
+}
 
