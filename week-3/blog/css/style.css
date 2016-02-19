@@ -126,7 +126,8 @@ a:hover {
 .article-date {
 	font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 50px;
+    color:gray;
 	
 }
 
@@ -168,11 +169,11 @@ a:hover {
     color:black;
 }
 
-.first-list li{
+.first-list ul li{
 	font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    color:red;
+    font-weight: 600;
+    font-size: 40px;
+    color: red;
     list-style: none;
 }
 
