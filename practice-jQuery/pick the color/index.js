@@ -1,9 +1,5 @@
 $( document ).ready(function() {
-	$("#red").click(illuminateRed);
-	$("#yellow").click(illuminateYellow);
-	$("#green").click(illuminateGreen);
-	$("#blue").click(illuminateBlue);
-	
+		
 function illuminateRed(){
 		 // clearLight();
 		  $(".color").css("background-color","red");
@@ -20,7 +16,11 @@ function illuminateBlue(){
 		 // clearLight();
 		  $(".color").css("background-color","blue");
 	  }
-	  
+	  $("#red").click(illuminateRed);
+	$("#yellow").click(illuminateYellow);
+	$("#green").click(illuminateGreen);
+	$("#blue").click(illuminateBlue);
+
 //function clearLight(){
 //	$(".color").css("background-color","gray");
 //	$(".color").css("background-color","gray");
