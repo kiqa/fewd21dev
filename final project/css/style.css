@@ -84,9 +84,17 @@ img{
 	height: 200px;
 	width: 200px;
 }
+.arrows{
+	float:left;
+	font-size: 30px;
+}
+.arrows2{
+	float:right;
+	font-size: 30px;
+}
 .image{
 	
-	padding-left: 35px;
+	padding-left: 30px;
 	border-color: black;
 	border-width: medium;
 	border-style: inset;
@@ -94,7 +102,7 @@ img{
 }
 .list2 li{
 	display: inline-block;
-    margin:10px 15px 10px 15px;
+  
     padding-left: 10px;
     
 }

@@ -1,0 +1,14 @@
+/*
+	comment form pseudocode
+	
+	when you click submit on the comment form
+	  add comment value to the list div
+	  
+	  
+	carousel pseudocode
+	
+	when you click on the right arrow the image goes to the right and is replaced by the next image
+	when you click on the left arrow the image goes to the left and is replaced by the next image
+	  
+	  
+	
