@@ -106,7 +106,7 @@ header span a {
 }
 
 #hero {
-  max-height: 700px;
+  height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
   padding-top: 32px;
 }
@@ -303,11 +303,12 @@ footer p {
     max-width:90%;
     float:none;
   }
+}
   @media screen and (max-width: 600px) {
   
-    #list{
-      display:inline-block;
-}
+    #nav ul li{
+      display:block;
+  }
 }
 /*------section "benefits"--*/
 @media screen and (max-width: 600px){
