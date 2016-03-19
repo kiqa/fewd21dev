@@ -1,0 +1,85 @@
+body{
+	background-image:url(../img/backimages.jpg);
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size:30px;
+	font-style: inherit;
+	color:green; 
+}
+.play{
+    padding-left: 50px;
+    padding-right: 100px;
+	margin:30px 0px 10px 200px;
+	clear:right;
+}
+.play h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size:40px;
+	background-color: green;
+	text-align: center;
+	border:40px 0px;
+	border-radius: 50px;
+}
+.play h1:hover{
+	border
+}
+.form{
+   float:left;
+}
+.place-holder{
+	margin: 300px 30px 40px 90px;
+	font-size: 20px;
+}
+.submit{
+	margin-top:50px;
+	padding-left:50px;
+	text-align: center;
+}
+.submit p:hover{
+	background:#ddf57b;
+	color:#103d1a;
+	
+}
+.skip{
+	margin-top:50px;
+	padding-left:50px;
+	text-align: center;
+}
+.skip p:hover{
+	background:#ea9f1d;
+	color:#103d1a;
+	
+}
+
+.image{
+	float:left;
+	margin:100px 0px 0px 200px;
+}
+img{
+	height: 500px;
+	width: 500px;
+}
+.chimpanzee{
+	background-image:url(../img/chimpanzee.jpg);
+}
+.crocodile{
+	background-image:url(../img/crocodile.jpg);
+}
+.elefant{
+	background-image:url(../img/elefant.jpg);
+}
+.hipopotamos{
+	background-image:url(../img/hipopotamos.jpg);
+}
+.lion{
+	background-image:url(../img/lion.jpg);
+}
+.squirrel{
+	background-image:url(../img/squirrel.jpg);
+}
+.tiger{
+	background-image:url(../img/tiger.jpg);
+}
