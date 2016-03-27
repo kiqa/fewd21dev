@@ -8,6 +8,11 @@ p{
 	font-style: inherit;
 	color:green; 
 }
+.container{
+	max-width:1000px;
+	margin:0 auto;
+	max-height:auto;
+}
 .play{
     padding-left: 50px;
     padding-right: 100px;
@@ -30,22 +35,19 @@ p{
    float:left;
 }
 .place-holder{
-	margin: 300px 30px 40px 90px;
+	margin: 50px 30px 30px 30px;
 	font-size: 20px;
 }
-.submit{
-	margin-top:50px;
-	padding-left:50px;
+.enter{
+
 	text-align: center;
 }
-.submit p:hover{
+.enter p:hover{
 	background:#ddf57b;
 	color:#103d1a;
 	
 }
 .skip{
-	margin-top:50px;
-	padding-left:50px;
 	text-align: center;
 }
 .skip p:hover{
@@ -56,7 +58,6 @@ p{
 
 .image{
 	float:left;
-	margin:100px 0px 0px 200px;
 }
 img{
 	height: 500px;
@@ -83,3 +84,49 @@ img{
 .tiger{
 	background-image:url(../img/tiger.jpg);
 }
+.correct{
+	background-image: url(../img/correct.jpg);
+}
+.incorrect{
+	background-image: url(../img/incorrect.png);
+}
+@media screen and (max-width: 1000px){
+	.container{
+    width:90%;
+  }
+}
+@media screen and (max-height: 310px){
+	.container{
+    height:100%;
+  }
+}
+
+@media screen and (max-width: 565px) {
+    .play{
+      width: 90%;
+      float:left;
+      padding:0px 0px;
+      margin:0px 0px;
+  }
+    .play h1{
+	   width: 90%;
+    }
+}
+@media screen and (max-width: 565px) {
+	.place-holder{
+		width: 90%;
+		margin:5px 5px;
+	}
+}
+@media screen and (max-width: 565px) {
+    .images {
+	    width: 100%;
+    }
+    img{
+	    width:100%;
+	    
+    }
+}
+
+
+

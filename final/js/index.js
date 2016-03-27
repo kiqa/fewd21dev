@@ -11,4 +11,4 @@
 	when you click on the left arrow the image goes to the left and is replaced by the next image
 	  
 	  
-	
+	*/
