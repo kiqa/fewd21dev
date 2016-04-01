@@ -3,78 +3,139 @@
 
 <head>
     <meta charset="utf-8">
-    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
-    	<title>Kiqa's</title>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
-		<!-- external CSS link -->
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
-        <link href="lightbox/css/lightbox.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+    <title>Kiqa's</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+    <!-- external CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/textillate/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="plugins/textillate/css/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
-      <header class="header">
+        <header class="header">
             <div class="kiqas">
-                <h1>Kiqa's</h1>
+                <h1 class="tlt" data-in-effect="rollIn">Kiqa's</h1>
             </div>
-             
-            <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="index.html">Home</a></li>
-                    <li role="presentation" class="active"><a href="aboutUs.html">About Us </a></li>
-                    <li role="presentation" class="active"><a href="#">Games</a></li>
-                    <li role="presentation" class="active"><a href="comment.html">Comments</a></li>
-                </ul>
-            
+
+            <ul class="nav nav-pills" id="nav">
+                <li role="presentation" class="active"><a href="index.html">Home</a>
+                </li>
+                <li role="presentation" class="active"><a href="aboutUs.html">About Us </a>
+                </li>
+                
+                <li role="presentation" class="active"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Games<span class="caret"></span> </a>
+                    <ul class="dropdown-menu">
+	                    <li> <a href="animals/index.html"> Animals spelling </a> </li>
+	                    <li> <a href="#"> Colors </a> </li>
+	                    <li> <a href="#"> paper, rock, scisor </a></li>
+	                 </ul>
+                </li>
+                
+                
+                <li role="presentation" class="active"><a href="comment.html">Comments</a>
+                </li>
+            </ul>
+
         </header>
 
-          <section class="section3">
-	          <article class="article1">
-		        <ul>
-		           <li><h1> What is Kiqa?</h1>
-		          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p> <spam class="read"> Read more </spam>
-		           </li>
-	  
-	        
-		          <li><h1> What does Kiqa do? </h1>
-		          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <spam class="read"> Read more </spam></p> 
-		          </li>
-		        </ul>
-	          </article>
-          
-  
-        <table class="aside">
-	        <tr>
-		        <td><a href="img/qanda.jpg" data-lightbox="image-1" data-title="click to zoom"><img src="img/qanda.JPG" class="pic"></a></td>
-		         <td><a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic"></a></td>
-	        </tr>
-	        <tr>
-		         <td><a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic"></a></td>	
-		          <td><a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic"></a></td>       
-		    </tr>
-	        <tr>
-		         <td><a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic"></a></td>
-		          <td><a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic"></a></td>
-	        </tr>
+        <section class="section3">
+            <article class="article1">
+                <ul>
+                    <li>
+                        <h1> What is Kiqa?</h1>
+                        <p class="text"><spam class="drop-cap">L </spam> orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.</p>
+	                        <p class="read" id="read1"> <a href="#">Read more</a></p>  
+	                        <p class="text" id="show-text1">sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  </p>
+                            <p class="readless"><a href="#">Read less</a></p>
+         
+                    </li>
 
-        </table>
+
+                    <li>
+                        <h1> What does Kiqa do? </h1>
+                        <p class="text"><spam class="drop-cap">L </spam>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.</p> 
+	                        <p class="read" id="read2"> <a href="#">Read more</a></p>  
+	                        <p class="text" id="show-text2">sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  </p>
+                            <p class="readless"><a href="#">Read less</a></p>
+                        </p>
+                    </li>
+                </ul>
+            </article>
+
+
+            <table class="aside">
+                <tr>
+                    <td>
+                        <a href="img/qanda.jpg" data-lightbox="image-1" data-title="click to zoom"><img src="img/qanda.JPG" class="pic">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="img/qanda.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/qanda.JPG" class="pic">
+                        </a>
+                    </td>
+                </tr>
+
+            </table>
         </section>
 
-    <footer class="footer">
-        <ul class="nav nav-tabs nav-justified">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutUs.html">About Us </a></li>
-            <li><a href="">Games</a></li>
-            <li><a href="comment.html">Comments</a></li>
-        </ul>
-    </footer>
+        <footer class="footer">
+            <ul class="nav nav-tabs nav-justified">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="aboutUs.html">About Us </a>
+                </li>
+                
+                <li role="presentation" class="active"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Games<span class="caret"></span> </a>
+                    <ul class="dropdown-menu">
+	                    <li> <a href="animals/index.html"> Animals spelling </a> </li>
+	                    <li> <a href="#"> Colors </a> </li>
+	                    <li> <a href="#"> paper, rock, scisor </a></li>
+	                 </ul>
+                </li>
+
+                                
+                
+                <li><a href="comment.html">Comments</a>
+                </li>
+            </ul>
+        </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="lightbox/js/lightbox.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/index.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <script src="plugins/textillate/js/jquery.textillate.js"></script>
+    <script src="plugins/lettering/js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/about.js"></script>
 </body>
 
 </html>

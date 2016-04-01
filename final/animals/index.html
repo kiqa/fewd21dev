@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-	<meta charset="utf-8">
-    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+    <meta charset="utf-8">
+    <meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-		<title>Relaxr Blog</title>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+    <title>Relaxr Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
-		<!-- external CSS link -->
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/normalize.css" />
+    <!-- external CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-	<div class="container">
-	  <header class="play">
-		<h1> Play</h1>
-	  </header>
-	  <button type="button" class="btn btn-default" aria-label="Left Align">
-        <a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
-      </button>
-	  <form class="form">
-	     <div class="place-holder">
-          <input autofocus placeholder="write the correct name" type="text" id="animalSubmission">
-         </div>
-        <div class="enter">
-         <p>Enter</p>
-        </div>
-        <div class="skip">
-	       <p> skip</p>
-        </div>
-	  </form>
-	  <aside  class="image">
-         <div class="image">
-	       <img src="img/frontimages.jpg" alt="">
-         </div>
-      </aside>
-	 </div>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-</body>	
+    <div class="container">
+        <header class="play">
+            <h1> Play</h1>
+        </header>
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+            <a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        </button>
+        <button  role="presentation" class="active" type="button" class="btn btn-default" aria-label="Left Align">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      
+       <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span class="caret"></a>
+          <h1 class="dropdown-menu"> Instruction: </h1> <p> Click play to start to play then write the correct answer of the animal that box image is showing you. If you want chance the image just press skip.</p>
+        </button>
+
+        
+       <form class="form">
+            <div class="place-holder">
+                <input autofocus placeholder="write the correct name" type="text" id="animalSubmission">
+            </div>
+            <div class="enter">
+                <p>Enter</p>
+            </div>
+            <div class="skip">
+                <p> skip</p>
+            </div>
+        </form>
+        <aside class="image">
+            <div class="image">
+                <img src="img/frontimages.jpg" alt="">
+            </div>
+        </aside>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
 </html>
