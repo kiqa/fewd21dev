@@ -1,8 +1,8 @@
 var imageData = new Array();
 imageData.push(["chimpanzee.jpg","chimpanzee"]);
 imageData.push(["crocodile.jpg","crocodile"]);
-imageData.push(["elefant.jpg","elefant"]);
-imageData.push(["hipopotamos.jpg","hipopotamos"]);
+imageData.push(["elephant.jpg","elephant"]);
+imageData.push(["hippopotamus.jpg","hippopotamus"]);
 imageData.push(["lion.jpg","lion"]);
 imageData.push(["squirrel.jpg","squirrel"]);
 imageData.push(["tiger.jpg","tiger"]);
