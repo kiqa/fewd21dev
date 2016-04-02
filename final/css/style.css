@@ -210,6 +210,9 @@ img {
     padding:10px 10px;
    
 }
+.tittle{
+	padding-top: 50px;
+}
 .drop-cap{
 	font-family: 'candal', sans-serif;
     font-weight: 300;
