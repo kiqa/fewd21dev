@@ -12,6 +12,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />    
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -24,12 +25,20 @@
         <button type="button" class="btn btn-default" aria-label="Left Align">
             <a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
         </button>
-        <button  role="presentation" class="active" type="button" class="btn btn-default" aria-label="Left Align">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        
+        <div id="inline" style="display:none;width:500px;">
+		  <h1> Instructions: </h1> <p> Click play to start to play.  Write the correct spelling of the animal shown. If you want to skip the image just press "skip".</p>
+		</div>
+                
+        <a class="various" href="#inline"> 
+	      <button type="button" class="btn btn-default" aria-label="Left Align">
+             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+          </button>    
+	    </a>
+        
+        
       
-       <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span class="caret"></a>
-          <h1 class="dropdown-menu"> Instruction: </h1> <p> Click play to start to play then write the correct answer of the animal that box image is showing you. If you want chance the image just press skip.</p>
-        </button>
+      
 
         
        <form class="form">
@@ -51,6 +60,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 
