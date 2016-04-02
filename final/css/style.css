@@ -1,0 +1,358 @@
+Project Name: kiqa- final project
+Client: Your Client 
+Author: Kelly Ward
+Developer @GA  */
+* {
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    
+    box-sizing: border-box;
+    /* IE */
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+body {
+    background-color: #fffdf7;
+}
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    clear: both;
+    max-height: 100%;
+    height:100%;
+    padding: 0 0 0 0;
+}
+.header {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+.kiqas {
+    font-family: 'Candal', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: left;
+    color: #fff;
+    width: 40%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 20px;
+}
+.kiqas h1 {
+    font-size: 55px;
+    margin: 0 0 0 0;
+}
+.nav {
+    float: right;
+    margin-right: 20px;
+}
+.nav nav-pills {
+    float: right;
+    width: 30%;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.list {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: inherit;
+    color: #ec4646;
+    text-align: center;
+    display: inline-block;
+    padding: 1px 10px 1px 30px;
+}
+.section1 {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 700px;
+    background-color: #fffcfc;
+}
+.kiqa {
+    font-family: 'Candal', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    margin: 20px 0px;
+}
+.carousel slide{
+	height:2000px;
+	width:100%;
+}
+img {
+    width: 100%;
+}
+.image {
+    padding-left: 30px;
+    border-color: black;
+    border-width: medium;
+    border-style: inset;
+}
+.row{
+	background-clip: border-box;
+	background-color: #ffe7dc;
+	padding:10px 10px; 
+	width:80%;
+	margin-left: 140px;
+}
+.row h2{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color:black;
+    padding:10px 10px;
+}
+.row p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color:#673807;
+    padding:10px 10px;
+}
+.list2 li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.footer {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.list-footer li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffa42c;
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+/*----comment---*/
+.section2 {
+    padding: 100px 0px 100px 0px;
+    height: 700px;
+    background-color: #fffcfc;
+}
+.col-sm-10 {
+    padding: 10px;
+}
+.form {
+    float: none;
+    clear: both;
+    width: 80%;
+    padding-left: 200px;
+}
+.submit {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.form-group{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:black;
+}
+
+
+/* ----About Us---*/
+.section3 {
+    width: 100%;
+}
+.article1 {
+    float: left;
+    width: 40%;
+    padding-top: 30px;
+}
+.article1 h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    color:black;
+}
+.article1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    color:black;
+}
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    margin-bottom: 0px;
+    padding:10px 10px;
+   
+}
+.tittle{
+	padding-top: 50px;
+}
+.drop-cap{
+	font-family: 'candal', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    float:left;
+    margin:1px 10px 10px 0px;
+}
+
+.invis {
+	display: none;
+}
+
+.read {
+    float: right;
+    color: blue;
+    font-size: 20px;
+}
+.readless {
+    float: right;
+    color: blue;
+    font-size: 20px;  
+}
+
+.pic {
+    width: 250px;
+    height: 250px;
+    padding: 15px 10px;
+}
+.aside {
+    float: right;
+    width: 40%;
+    padding-top: 50px;
+}
+.aside p{
+	color:#633902;
+}
+/*-----thanks----*/
+.section4{
+	width: 100%;
+	height: 400px;
+}
+.thanks{
+	 font-family: 'candal', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    color:#724141;
+    margin-top:150px;
+
+}
+/*--- index Home page ----*/
+@media screen and (max-width: 960px){
+	.container{
+    max-width:90%;
+    float:none;
+  }
+}
+@media screen and (max-width: 570px) {
+	  .kiqas h1{
+		  font-size: 35px;
+		  text-align: center;
+	  }
+	  .kiqa h1{
+		  font-size:20px;
+	  }
+	  #nav{
+	   margin:0;
+	   padding:1px;
+    }
+    .header{
+		margin-bottom: 15px;
+    }
+
+	  .row{
+		max-height:auto;
+		margin-left:25px;
+	  }
+	  .row h2{
+		font-size: 20px;
+	  }
+	  .row p{
+		font-size: 10px;
+	 }
+}
+
+}
+@media screen and (max-width: 408px){
+	.header{
+		margin-bottom: 15px;
+  }
+    .nav nav-pills{
+        display:block;
+  }
+    
+}
+   /*----- index-about-Us----*/
+@media screen and (max-width: 960px){
+    .article1{
+	width: auto; 
+	float: right;
+	margin-top: 50px;
+	}
+}
+@media screen and (max-width: 570px){
+   .aside{
+	   float:none;
+	   width:auto;
+   }
+   .pic{
+	   width:190px;
+	   height:190px;
+   }
+
+} 
+
+/*-----index-comment-----*/
+@media screen and (max-width: 800px){
+	.section2{
+		width: auto;
+	}
+	.form{
+		width:auto;
+		float:left;
+		margin-top: 50px;
+		padding-left: 10px;
+		padding-right: 0;
+	}
+	.col-sm-10{
+		padding: 10px;
+		
+	}
+	.form-control{
+		padding:auto;
+		
+	}
+}
+	@media screen and (max-width: 500px){
+	#submit .btn btn-primary{
+		float:left;
+		width:30%;
+		margin-right:700px;
+	}
+}

@@ -1,0 +1,31 @@
+body{
+	
+	background-color: #edf2f6;
+}
+
+.buttom{
+	float:left;
+	padding: 24px 24px;
+	display:inline-block;
+}
+.buttom li{
+	font-family: fantasy;
+	font-size:50px;
+	color:white;
+	border-color: black;
+	padding:10px;
+	margin-bottom: 20px;
+	border-radius: 80px;
+	background-color: black;
+	text-decoration:none;
+}
+.color{
+
+	float:left;
+	padding:80px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 70px;
+	border-color: black;
+	margin-top: 15%;
+	margin-left: 100px;
+}
