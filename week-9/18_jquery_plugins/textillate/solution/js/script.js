@@ -1,3 +1,0 @@
-$(function () {
-    $('.tlt').textillate();
-})
